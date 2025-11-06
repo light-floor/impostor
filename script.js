@@ -111,3 +111,4 @@ menuBtn.addEventListener("click", reiniciarJuego);
 
 // Inicialización
 actualizarInfo();
+
