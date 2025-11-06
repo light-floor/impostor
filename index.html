@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impostor — Cumpleaños Cangas Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Impostor — Cumpleaños Cangas Edition</h1>
+    <div id="game-info">
+      <span id="jugador-numero"></span> |
+      <span id="ronda-numero"></span> |
+      <span id="impostores-numero"></span>
+    </div>
+
+    <div class="card" id="card">
+      <div class="card-inner" id="card-inner">
+        <div class="card-front" id="card-front">
+          <p>Toca el tablero<br>para revelar tu jugador<br>o si eres impostor</p>
+        </div>
+        <div class="card-back" id="card-back"></div>
+      </div>
+    </div>
+
+    <button id="revelar">Revelar carta</button>
+    <button id="siguiente" style="display:none;">Siguiente jugador</button>
+    <button id="nueva-ronda" style="display:none;">Jugar otra ronda</button>
+    <button id="menu" style="display:none;">Volver al menú principal</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
